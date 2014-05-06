@@ -1,12 +1,13 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(engagement_checker)
+project(strands_engagement_checker)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   rospy
-  tf
+  std_msgs
+  strands_perception_people_msgs
 )
 
 ## System dependencies are found with CMake's conventions
