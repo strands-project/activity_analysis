@@ -32,7 +32,7 @@ class EngagementChecker:
         for i in range(len(data.distances)):
             if data.distances[i]<1.3:
                 self.detections[data.ids[i]] += 1
-                rospy.loginfo('found one! %s %s',data.ids[i],self.detections[data.ids[i]])
+                rospy.logdebug('found person to probably engage with %s %s',data.ids[i],self.detections[data.ids[i]])
             else:
                 self.detections[data.ids[i]] = 0
 
