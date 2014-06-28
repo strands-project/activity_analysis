@@ -15,7 +15,7 @@ class EngagementChecker:
         pub_topic = rospy.get_param("~detections",name+"/engaged")
         self.threshold = rospy.get_param("~threshold", 20)
 
-        self.pub = rospy.Publisher(pub_topic,std_msgs.msg.Bool,queue_size=1000)
+        self.pub = rospy.Publisher(pub_topic,std_msgs.msg.Bool,queue_size=1)
         rospy.Subscriber('/pedestrian_localisation/localisations', PedestrianLocations, self.callback_pose)
 	rospy.Subscriber('/head_orientation/head_ori', HeadOrientations, self.callback_ori)
 
