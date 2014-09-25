@@ -7,7 +7,8 @@ project(strands_engagement_checker)
 find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
-  strands_perception_people_msgs
+  strands_head_orientation
+  strands_people_tracker
 )
 
 ## System dependencies are found with CMake's conventions
