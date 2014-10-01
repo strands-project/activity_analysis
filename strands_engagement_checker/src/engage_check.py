@@ -3,7 +3,7 @@
 
 import rospy
 import std_msgs.msg
-from strands_people_tracker.msg import PeopleTracker
+from bayes_people_tracker.msg import PeopleTracker
 from strands_head_orientation.msg import HeadOrientations
 
 
