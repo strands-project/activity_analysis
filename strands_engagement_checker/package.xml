@@ -42,10 +42,12 @@
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
-  <build_depend>strands_perception_people_msgs</build_depend>
+  <build_depend>strands_head_orientation</build_depend>
+  <build_depend>strands_people_tracker</build_depend>
   <run_depend>rospy</run_depend>
   <run_depend>std_msgs</run_depend>
-  <run_depend>strands_perception_people_msgs</run_depend>
+  <run_depend>strands_head_orientation</run_depend>
+  <run_depend>strands_people_tracker</run_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
