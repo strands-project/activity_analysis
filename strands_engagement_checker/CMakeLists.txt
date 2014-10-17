@@ -8,7 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   strands_head_orientation
-  strands_people_tracker
+  bayes_people_tracker
 )
 
 ## System dependencies are found with CMake's conventions
