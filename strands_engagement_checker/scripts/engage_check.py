@@ -4,7 +4,7 @@
 import rospy
 import std_msgs.msg
 from bayes_people_tracker.msg import PeopleTracker
-from strands_head_orientation.msg import HeadOrientations
+#from strands_head_orientation.msg import HeadOrientations
 
 
 class EngagementChecker:
@@ -22,11 +22,11 @@ class EngagementChecker:
             PeopleTracker,
             self.callback_pose
         )
-        rospy.Subscriber(
-            '/head_orientation/head_ori',
-            HeadOrientations,
-            self.callback_ori
-        )
+        #rospy.Subscriber(
+            #'/head_orientation/head_ori',
+            #HeadOrientations,
+            #self.callback_ori
+        #)
 
     def callback_pose(self, data):
         # Add new detections
@@ -61,8 +61,8 @@ class EngagementChecker:
             else:
                 self.detections[data.uuids[i]] = 0
 
-    def callback_ori(self, data):
-        print data.angles
+    #def callback_ori(self, data):
+        #print data.angles
 
 
 if __name__ == '__main__':
