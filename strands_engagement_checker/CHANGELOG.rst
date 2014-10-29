@@ -2,8 +2,8 @@
 Changelog for package strands_engagement_checker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.1 (2014-10-29)
+------------------
 * Preparing package for release
 * Renamed strands_people_tracker to bayes_people_tracker
 * strands_perceptiion_people_msgs does not exist any more

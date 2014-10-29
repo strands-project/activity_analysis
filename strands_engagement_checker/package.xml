@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>strands_engagement_checker</name>
-  <version>0.0.0</version>
+  <version>0.0.1</version>
   <description>The engagement_checker package</description>
 
   <maintainer email="omari.1988@gmail.com">Mohannad Al Omari</maintainer>
